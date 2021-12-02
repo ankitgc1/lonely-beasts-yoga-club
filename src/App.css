@@ -1,0 +1,80 @@
+#home {
+  height: 100vh;
+}
+.tran-bg{
+  background-color:rgba(66, 87, 88, 0.7);
+  padding-bottom: 20px;
+}
+.story-para{
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-826614305347541-3;
+}
+
+
+.tran-box{
+  margin: 50px 30px;
+  background: linear-gradient(225deg, #1ee0af42 12%, #c055ee45 78%);
+  padding: 30px;
+  box-shadow: 0 0 8px 2px #265258;
+  align-items: center;
+  border-radius: 14px;
+  flex-direction: column;
+  /* color: white; */
+  /* height: 100%; */
+}
+
+.tran-para {
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+.road-box{
+  box-shadow: 0 0 8px 2px #f7f7f7;
+}
+
+svg {
+  /* background: #282c34; */
+  height: 70px;
+  width: 70px;
+  color: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
+}
+
+.white{
+  color: white;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* .jss674{
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 20% 80%;
+} */
+.jss675{
+  justify-self: flex-end;
+  flex-direction: column;
+}
+.jss677{
+  display: flex;
+  justify-self: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.jss679{
+  width: 3px;
+  height: 200px;
+  background: white;
+}
