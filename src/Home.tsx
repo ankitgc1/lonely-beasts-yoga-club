@@ -26,7 +26,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Navbar, Nav, Row, Col, Button, Form} from 'react-bootstrap';
 import sol from './images/solana_logo.png'
 import logo from './logo.svg';
-import bgImg from './images/bg.jpeg'
+import bgImg from './images/bg.jpg'
 import gif from './images/yoga.png'
 
 
@@ -180,7 +180,8 @@ const Home = (props: HomeProps) => {
     backgroundImage: 'url('+bgImg+')',
     backgroundAttachment: 'fixed',
     backgroundPosition: 'center',
-    backgroundSize: 'cover',
+    // backgroundSize: 'cover',
+    backgroundSize: '100%',
     minHeight: '100%',
     width: '100%',
     // height: '100vh'
@@ -229,12 +230,12 @@ const Home = (props: HomeProps) => {
           </Row>
           <Row>
             <Col className="d-flex justify-content-center text-center">
-              <h1>Lonely Beasts Yoga Club</h1>
+              <h1 className="white">Lonely Beasts Yoga Club</h1>
             </Col>
           </Row>
           <Row className="mt-3">
             <Col className="d-flex justify-content-center text-center">
-              <h2>Welcome <strong className="white">LONELY BEASTS YOGA CLUB</strong> jungle</h2>
+              <h2> <strong className="white">Welcome LONELY BEASTS YOGA CLUB jungle</strong> </h2>
             </Col>
           </Row>
           <Row className="mt-3">
