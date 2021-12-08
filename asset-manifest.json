@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.00c82967.chunk.css",
-    "main.js": "/static/js/main.b58a777a.chunk.js",
-    "main.js.map": "/static/js/main.b58a777a.chunk.js.map",
+    "main.js": "/static/js/main.9f8352f7.chunk.js",
+    "main.js.map": "/static/js/main.9f8352f7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fef143c.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fef143c.js.map",
     "static/css/2.4659568d.chunk.css": "/static/css/2.4659568d.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.4659568d.chunk.css.map": "/static/css/2.4659568d.chunk.css.map",
     "static/css/main.00c82967.chunk.css.map": "/static/css/main.00c82967.chunk.css.map",
     "static/js/2.7157bb73.chunk.js.LICENSE.txt": "/static/js/2.7157bb73.chunk.js.LICENSE.txt",
+    "static/media/bg.153e79d8.jpg": "/static/media/bg.153e79d8.jpg",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
     "static/media/solana_logo.88dd9cd2.png": "/static/media/solana_logo.88dd9cd2.png",
     "static/media/yoga.7f307aee.png": "/static/media/yoga.7f307aee.png"
@@ -23,6 +24,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.7157bb73.chunk.js",
     "static/css/main.00c82967.chunk.css",
-    "static/js/main.b58a777a.chunk.js"
+    "static/js/main.9f8352f7.chunk.js"
   ]
 }
