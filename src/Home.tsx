@@ -25,7 +25,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Navbar, Nav, Row, Col, Button, Form} from 'react-bootstrap';
 import sol from './images/solana_logo.png'
-import logo from './logo.svg';
+import logo from './images/logo.jpg';
 import bgImg from './images/bg.jpg'
 import gif from './images/yoga.png'
 
@@ -240,7 +240,7 @@ const Home = (props: HomeProps) => {
           </Row>
           <Row className="mt-3">
             <Col className="d-flex justify-content-center text-center">
-              <h3>
+              <h3 className="white">
                 Built on
               </h3>
             </Col>
@@ -256,7 +256,7 @@ const Home = (props: HomeProps) => {
           </Row>
           <Row>
             <Col className="d-flex justify-content-center text-center">
-              <div className="tran-box">
+              <div className="tran-box white">
                 <strong>Launch Date <br></br><br></br></strong>
                 7PM UTC, 28th November 2021
               </div>
@@ -313,17 +313,17 @@ const Home = (props: HomeProps) => {
               <h1 className="white">ABOUT</h1> 
             </Row>
             <Row className="mt-2 white" style={para}>
-              KoKongz story A few years ago, the KoKongz were created by accident, following a scientific experiment. They escaped from the lab and began to live in the jungle, the jungle of Solana. Initially, the KoKongz were made of gold, but today only a few are still alive, making them the rarest KoKongz in the jungle. 
+            10,000 Rhinos are left playing in the large savannah.           
             </Row>
             <Row className="mt-5 white" style={para}>
-              KoKongz are as intelligent as humans and their occupation is to steal clothing or accessories from humans and wear them. 
+            There used to be many more, so they feel quite lonely. 
             </Row>
             <Row className="mt-5 white" style={para}>
-              Thanks to new technology, our team managed to catch them all, but we won't be able to keep them all for long, so we need your help! If you think you are strong enough to tame one of them, your help is welcome. 
+            During their long, boring days, they like to practice yoga. Help them keep healthy and happy.  
             </Row>
-            <Row className="mt-4 white" style={para}>
+            {/* <Row className="mt-4 white" style={para}>
               <strong>WARNING: </strong> The rarer they are, the harder they are to tame, so be careful!
-            </Row>
+            </Row> */}
           </Col>
           <Col lg="4" className="d-flex justify-content-center text-center">
             <img style={{borderRadius: "50%", marginTop:"100px"}}
@@ -397,7 +397,45 @@ const Home = (props: HomeProps) => {
         </Container>
       </div>
 
-      <div className="tran-bg pt-3 pb-5" id="contact-us">
+      <div id="Roadmap" className="tran-bg">
+        <Container>
+          <Row className="mt-3 d-flex justify-content-center text-center">
+            <Col className="mt-5">
+              <h1 className="white">Roadmap</h1>
+            </Col>
+          </Row>
+
+          <div className="white">
+            <div className="mt-5 tran-box road-box">
+              <p className="tran-para">
+                <strong>December 2021:</strong> launch of our first rhino collection.
+              </p>
+            </div>
+            <div className="mt-5 tran-box road-box">
+              <p className="tran-para">
+                <strong>Q1 2022:</strong> launch of our second collection.
+              </p>
+            </div>
+            <div className="mt-5 tran-box road-box">
+              <p className="tran-para">
+                <strong>Q2 2022:</strong> yoga membership airdrops.
+              </p>
+            </div>
+            <div className="mt-5 tran-box road-box">
+              <p className="tran-para">
+                <strong>Q3 2022:</strong> first safari metaverse experience.
+              </p>
+            </div>
+            <div className="mt-5 tran-box road-box">
+              <p className="tran-para">
+                <strong>Q4 2022:</strong> ... surprise !
+              </p>
+            </div>
+          </div>
+        </Container>
+      </div>
+
+      <div className="pt-3 pb-5" id="contact-us">
         <Container>
           <Row className="mt-5 d-flex justify-content-center text-center">
             <Col>
@@ -408,7 +446,7 @@ const Home = (props: HomeProps) => {
           </Row>
           <Row className="mt-5 mb-5 d-flex justify-content-center text-center">
             <Col>
-            <a href="https://discord.gg/mFSaHEjx" target="_blank" rel="noreferrer">
+            <a href="https://discord.com/channels/906712414945411114/906712415402610730" target="_blank" rel="noreferrer">
             <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 66.52A50 50 0 00414.12 17L97.64 16A49.65 49.65 0 0048 65.52V392c0 27.3 22.28 48 49.64 48H368l-13-44 109 100zM324.65 329.81s-8.72-10.39-16-19.32C340.39 301.55 352.5 282 352.5 282a139 139 0 01-27.85 14.25 173.31 173.31 0 01-35.11 10.39 170.05 170.05 0 01-62.72-.24 184.45 184.45 0 01-35.59-10.4 141.46 141.46 0 01-17.68-8.21c-.73-.48-1.45-.72-2.18-1.21-.49-.24-.73-.48-1-.48-4.36-2.42-6.78-4.11-6.78-4.11s11.62 19.09 42.38 28.26c-7.27 9.18-16.23 19.81-16.23 19.81-53.51-1.69-73.85-36.47-73.85-36.47 0-77.06 34.87-139.62 34.87-139.62 34.87-25.85 67.8-25.12 67.8-25.12l2.42 2.9c-43.59 12.32-63.44 31.4-63.44 31.4s5.32-2.9 14.28-6.77c25.91-11.35 46.5-14.25 55-15.21a24 24 0 014.12-.49 205.62 205.62 0 0148.91-.48 201.62 201.62 0 0172.89 22.95s-19.13-18.15-60.3-30.45l3.39-3.86s33.17-.73 67.81 25.16c0 0 34.87 62.56 34.87 139.62 0-.28-20.35 34.5-73.86 36.19z"></path><path d="M212.05 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.8 0 24.7-11.83 24.7-26.57.25-14.76-10.9-26.57-24.7-26.57zM300.43 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.81 0 24.7-11.83 24.7-26.57S314 218 300.43 218z"></path></svg>
             </a>
             </Col>
@@ -416,7 +454,7 @@ const Home = (props: HomeProps) => {
               <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"></path><path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"></path></svg>
             </Col> */}
             <Col>
-            <a href="https://twitter.com/KokongzNFTs" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/LonelyBeastsYC" target="_blank" rel="noreferrer">
             <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M496 109.5a201.8 201.8 0 01-56.55 15.3 97.51 97.51 0 0043.33-53.6 197.74 197.74 0 01-62.56 23.5A99.14 99.14 0 00348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 002.54 22.1 280.7 280.7 0 01-203-101.3A95.69 95.69 0 0036 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0135.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 01-25.94 3.4 94.38 94.38 0 01-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0139.5 405.6a203 203 0 01-23.5-1.4A278.68 278.68 0 00166.74 448c181.36 0 280.44-147.7 280.44-275.8 0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 00496 109.5z"></path></svg>        
             </a>  
             </Col>
