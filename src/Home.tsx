@@ -462,7 +462,7 @@ const Home = (props: HomeProps) => {
           <Row className="mt-3 d-flex justify-content-center text-center">
             <Col>
               <h3>
-              Copyright 2021 by lovely beasts yoga club. All rights reserved.
+              Copyright 2021 by lonely beasts yoga club. All rights reserved.
               </h3>
             </Col>
           </Row>
